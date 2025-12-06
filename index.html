@@ -9,30 +9,47 @@
 
 <body>
 
-<header>
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#talks">Talks</a>
+</nav>
+
+<header class="hero">
     <h1>Marco Dalla Pria</h1>
-    <p>PhD Candidate in Modeling and Data Science — University of Turin</p>
-    <p>
-        <a href="mailto:marco.dallapria@unito.it">Email</a> ·
-        <a href="pdf/CV.pdf">CV</a> ·
-        <a href="https://github.com/marcodallapria">GitHub</a>
-    </p>
+    <p class="subtitle">PhD Candidate in Modeling and Data Science — University of Turin</p>
+
+    <div class="buttons">
+        <a class="button" href="mailto:marco.dallapria@unito.it">Email</a>
+        <a class="button" href="pdf/CV.pdf">CV</a>
+        <a class="button" href="https://github.com/marcodallapria">GitHub</a>
+    </div>
 </header>
 
 <main>
 
-<section>
+<section id="about" class="block">
     <h2>About</h2>
-    <p>
-        I am a PhD candidate in Modeling and Data Science at the University of Turin. 
-        My research lies at the interface of Bayesian nonparametrics, stochastic 
-        processes, and random combinatorial structures. My doctoral dissertation 
-        develops duality-based methods for filtering and inference in two-parameter 
-        Poisson–Dirichlet diffusions and related stochastic partition models.
-    </p>
+    <div class="about-container">
+        <div>
+            <p>
+                I am a PhD candidate in Modeling and Data Science at the University of Turin.
+                My research lies at the intersection of Bayesian nonparametrics, stochastic 
+                processes, and random combinatorial structures.
+            </p>
+            <p>
+                My dissertation develops duality-based methods for filtering and inference in 
+                two-parameter Poisson–Dirichlet diffusions and related stochastic partition models.
+            </p>
+        </div>
+
+        <img class="profile" src="assets/profile.jpg" alt="Profile photo">
+    </div>
 </section>
 
-<section>
+<section id="research" class="block alt">
     <h2>Research Interests</h2>
     <ul>
         <li>Bayesian nonparametric statistics and random partition models</li>
@@ -41,42 +58,29 @@
     </ul>
 </section>
 
-<section>
+<section id="publications" class="block">
     <h2>Publications</h2>
-    <p>Selected papers:</p>
-    <ul>
-        <li>
-            Dalla Pria, M., Ruggiero, M., Spanò, D. 
-            <em>"A Metropolis–Hastings for Sampling Coagulated Partitions"</em>, 
-            New Trends in Bayesian Statistics (2025).
-        </li>
-        <li>
-            Dalla Pria, M., Ruggiero, M., Spanò, D. 
-            <em>"Exact Sampling of Two Coagulated Partitions"</em>, 
-            Springer (2025).
-        </li>
-        <li>
-            Dalla Pria, M., Montagna, S. 
-            <em>"The Hierarchical Beta–Bernoulli Process as Out-of-Scope Query Detector"</em>, 
-            SIS (2023).
-        </li>
+    <ul class="pubs">
+        <li><strong>A Metropolis–Hastings for Sampling Coagulated Partitions</strong> (2025). With Ruggiero & Spanò.</li>
+        <li><strong>Exact Sampling of Two Coagulated Partitions</strong> (2025). With Ruggiero & Spanò.</li>
+        <li><strong>The Hierarchical Beta–Bernoulli Process as Out-of-Scope Query Detector</strong> (2023). With Montagna.</li>
     </ul>
 </section>
 
-<section>
-    <h2>Talks</h2>
-    <ul>
-        <li>Exact inference via quasi-conjugacy in two-parameter PD HMMs — ICSDS 2025</li>
-        <li>Exact Sampling of Two Coagulated Partitions — SIS 2024</li>
-        <li>Inference in Petrov’s diffusion — Turin–Bath Workshop 2023</li>
-    </ul>
-</section>
-
-<section>
+<section id="teaching" class="block alt">
     <h2>Teaching</h2>
     <ul>
         <li>Teaching assistant — Statistical Inference (MSc), 2023–2025</li>
         <li>Teaching support — Statistics (BSc), 2021</li>
+    </ul>
+</section>
+
+<section id="talks" class="block">
+    <h2>Selected Talks</h2>
+    <ul>
+        <li>ICSDS 2025 — Exact inference via quasi-conjugacy in PD HMMs</li>
+        <li>SIS 2024 — Exact Sampling of Coagulated Partitions</li>
+        <li>Turin–Bath Workshop 2023 — Inference in Petrov’s Diffusion</li>
     </ul>
 </section>
 
@@ -88,3 +92,4 @@
 
 </body>
 </html>
+
