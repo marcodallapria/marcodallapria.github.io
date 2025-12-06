@@ -71,6 +71,15 @@ body {
     letter-spacing: 0.4px;
 }
 
+.menu a.active {
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-left: 3px solid #6aa9ff;
+    padding-left: 6px;
+}
+
+
 /* === SIDEBAR ICONS === */
 .icons {
     display: flex;
