@@ -39,6 +39,23 @@ body {
     font-size: 0.95rem;
 }
 
+.contact-info {
+    color: #b5b5b5;
+    font-size: 0.88rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.contact-info a {
+    color: #dcdcdc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 6px #9ec3ff99;
+}
+
 /* Profile photo */
 .profile {
     width: 160px;
