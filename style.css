@@ -1,9 +1,18 @@
 /* === BASE RESET & TYPOGRAPHY === */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: #0f0f0f; /* sfondo quasi-nero elegante */
-    color: #f2f2f2;      /* testo bianco morbido */
+    background: #0f0f0f;
+    color: #f2f2f2;
     line-height: 1.75;
 }
 
